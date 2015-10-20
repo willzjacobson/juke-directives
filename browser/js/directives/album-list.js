@@ -3,8 +3,7 @@ app.directive('albumList', function() {
 		restrict: 'E', 
 		templateUrl: '/templates/album-list.html',
 		scope: {
-			albums: '='
+			albums: '=',
 		},
 	};
 });
-
